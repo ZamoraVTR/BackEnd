@@ -86,7 +86,8 @@ Boa sorte! :)
 
 -Fiz uma pequena alteração no arquivo insomnia-api.json, para classificar as categorias , para que eu pudesse criar o filtro de busca exigido no teste.
 
--No arquivo "routes.php" adicionei a rota "/last-price-change" , para gerar o log de alteraçoes de preços , que pode ser acessada "http://localhost:8000/last-price-change"
+-No arquivo "routes.php" adicionei a rota "/last-price-change" , para gerar o log de alteraçoes de preços , que pode ser acessada "http://localhost:8000/last-price-change",
+lembre-se de adicionar o id do produto que deseja buscar o log de alteração , ex: "http://localhost:8000/last-price-change/4".
 
 -Acessei o banco de dados fornecido para o teste através do "DB Browser for SQLite" para atender a demanda "Relatório", alterando o nome da coluna "timestamp" para "created_at", e também
 adicionei a coluna "user_name".
